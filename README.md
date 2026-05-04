@@ -1,6 +1,6 @@
 # Batch long-form transcription of speech to TextGrids with Whisper and Silero VAD
 
-This repo contains an associated Colab notebook. The notebook is designed to automate the transcription of large audio files, and convert the transcriptions to time-aligned SRTs TextGrids. It utilizes a Whisper model for speech recognition and the Silero Voice Activity Detector (VAD) for silence detection. This notebook is geared for linguists or language researchesr who want to transcribe audio files such as for an oral corpus.
+This repo contains an associated [Colab notebook](Long_Form_transcription_to_TextGrids.ipynb). The notebook is designed to automate the transcription of large audio files, and convert the transcriptions to time-aligned SRTs TextGrids. It utilizes a Whisper model for speech recognition and the Silero Voice Activity Detector (VAD) for silence detection. This notebook is geared for linguists or language researchesr who want to transcribe audio files such as for an oral corpus.
 
 The workflow of the script is as follows:
 1) It takes a folder of audio files as input.
