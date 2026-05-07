@@ -13,3 +13,5 @@ The workflow of the script is as follows:
 For step 4, you can plug in the repository name of a Whisper model from Hugging Face. Otherwise, if your model is not on Hugging Face or is not a Whisper model, you'll need to modify the code to set up the model in section 1.3
 
 The only work you need to do is enter your folder path and file names in section 1
+
+Note: I do not use speaker diarization. I have found that that the results were too unreliable, and would lead to a lot of duplicate work in moving TextGrid intervals between tiers. But it can be a possible follow-up. The trick would be the determine the speaker of each non-silent interval, and then reassign these intervals across the tiers.
