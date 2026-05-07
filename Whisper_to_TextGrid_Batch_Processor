@@ -16,7 +16,7 @@
         "id": "e34044a3"
       },
       "source": [
-        "# Batch long-form transcription of speech to TextGrids with Whisper and Silero VAD"
+        "# Whisper to TextGrid Batch Processor"
       ]
     },
     {
